@@ -1,0 +1,28 @@
+{
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+
+  // Cấu hình riêng cho Terminal ở dưới này
+  "terminal.integrated.fontFamily": "'JetBrains Mono', Consolas, monospace",
+  "terminal.integrated.fontSize": 14,
+
+  // Cấu hình chuẩn đét cho extension Auto Import (steoates)
+  "autoimport.filesToScan": "**/*.{ts,tsx,js,jsx}",
+  "autoimport.showNotifications": false,
+  "autoimport.doubleQuotes": true,
+  "autoimport.spaceBetweenBraces": true,
+  "autoimport.autoComplete": true,
+  "autoimport.useSemiColon": true,
+  // Tự động thêm dấu gạch chéo / sau khi chọn thư mục
+  "path-intellisense.autoSlashAfterDirectory": true,
+  // Tự động nhận diện extension của file (ví dụ: .js, .png, .vue)
+  "path-intellisense.extensionOnImport": true,
+  // Cấu hình Path Alias (Ví dụ: map dấu @ vào thư mục src của dự án)
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src"
+  },
+
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
