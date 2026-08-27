@@ -1,5 +1,5 @@
 export default function NoteDetailPage() {
   return (
-    <div>NoteDetailPage</div>
+    <div >NoteDetailPage</div>
   )
 }
