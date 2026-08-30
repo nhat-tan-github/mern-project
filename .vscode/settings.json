@@ -1,6 +1,7 @@
 {
   "editor.fontSize": 14,
   "editor.lineHeight": 22,
+  "prettier.printWidth": 80,
 
   // Cấu hình riêng cho Terminal ở dưới này
   "terminal.integrated.fontFamily": "'JetBrains Mono', Consolas, monospace",
